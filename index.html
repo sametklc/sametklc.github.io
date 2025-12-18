@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulamalarım - Developer Home</title>
+    <style>
+        :root {
+            --bg-color: #000000;
+            --text-color: #ffffff;
+            --link-color: #4da6ff;
+            --border-color: #333;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .app-list {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .app-item {
+            border: 1px solid var(--border-color);
+            padding: 30px;
+            border-radius: 12px;
+            background-color: #111;
+        }
+
+        .app-item h2 {
+            margin-top: 0;
+            color: #eee;
+        }
+
+        .app-description {
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            color: var(--link-color);
+            text-decoration: none;
+            border: 1px solid var(--link-color);
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+
+        .links a:hover {
+            background-color: rgba(77, 166, 255, 0.1);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer a {
+            color: #888;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Mobil Uygulamalarım</h1>
+            <p>Geliştirdiğim oyun ve uygulamaların resmi web sayfasıdır.</p>
+        </header>
+
+        <div class="app-list">
+            
+            <div class="app-item">
+                <h2>VidAI - AI Video Generator</h2>
+                <p class="app-description">
+                    Fotoğraflarını saniyeler içinde büyüleyici videolara dönüştür. Yapay zeka gücüyle sınırsız yaratıcılık.
+                </p>
+                <div class="links">
+                    <a href="#">App Store'da İndir</a>
+                    <a href="https://hail-scabiosa-646.notion.site/Privacy-Policy-for-VidAI-2be077c6b38c8045b9fde18129a2a6fd">Gizlilik Politikası (Privacy Policy)</a>
+                </div>
+            </div>
+
+            <div class="app-item">
+                <h2>Bilgi Yarışması: Milyoner</h2>
+                <p class="app-description">
+                    Genel kültürünü test et, soruları bil ve büyük ödülü kazanmaya çalış. Eğlenceli ve öğretici bilgi yarışması.
+                </p>
+                <div class="links">
+                    <a href="#">Google Play'de İndir</a> 
+                    <a href="#">Gizlilik Politikası</a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div style="margin-bottom: 10px;">
+                <a href="mailto:support@vidai.app">İletişim / Destek</a>
+            </div>
+            <div>
+                &copy; 2025 Tüm Hakları Saklıdır.
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
